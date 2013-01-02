@@ -1,0 +1,3 @@
+name:  httpstub
+version: 0.1.0
+description:  Fake HTTP entities for testing.
