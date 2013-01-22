@@ -36,6 +36,7 @@ class FakeHttpRequest implements HttpRequest {
   HttpConnectionInfo connectionInfo = null;
   List<Cookie> cookies = <Cookie>[];
   HttpSession session([init(HttpSession session)]) => null;
+  X509Certificate certificate = null;
 
   set body(String value) {
     var s = new ListInputStream();
